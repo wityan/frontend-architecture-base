@@ -20,3 +20,4 @@ jobs:
             !node_modules
             !.github
             !.gitignore
+            !webpack.config.js
