@@ -8,7 +8,7 @@ module.exports = {
   },
   output: {
     filename: '[name]/index.js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname),
   },
   resolve: {
     alias: {
