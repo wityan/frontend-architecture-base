@@ -15,7 +15,7 @@ jobs:
         with:
           name: dist-without-markdown
           path: |
-            dist
+            .
             !src
             !node_modules
             !.github
