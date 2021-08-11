@@ -1,6 +1,7 @@
 {
   "name": "@wityan/frontend-architecutre-base",
   "version": "0.0.1",
+  "repository": "https://github.com/wityan/frontend-architecture-base",
   "scripts": {
     "build": "webpack"
   },
