@@ -24,7 +24,7 @@ jobs:
             !node_modules
             !.github
             !.gitignore
-            !rollup.config.js
+            !rollup.config.ts
             !tsconfig.json
             !.npmrc
   publish:

@@ -1,7 +1,9 @@
+import DefaultLayout from './../components/layouts/DefaultLayout';
+
 const Homepage = () => (
-  <div>
+  <DefaultLayout>
     HOMEPAGE
-  </div>
+  </DefaultLayout>
 );
 
 export default Homepage;
