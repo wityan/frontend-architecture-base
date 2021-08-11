@@ -16,6 +16,7 @@ jobs:
           registry-url: 'https://npm.pkg.github.com'
           scope: '@wityan'
       - run: npm install
+      - run: npm rund build
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
