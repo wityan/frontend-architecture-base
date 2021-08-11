@@ -24,7 +24,9 @@ jobs:
             !node_modules
             !.github
             !.gitignore
-            !webpack.config.js
+            !rollup.config.js
+            !tsconfig.json
+            !.npmrc
   publish:
     needs: build
     runs-on: ubuntu-latest
