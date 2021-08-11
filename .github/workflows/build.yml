@@ -22,6 +22,7 @@ jobs:
             !.gitignore
             !webpack.config.js
   publish:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Download Artifact
